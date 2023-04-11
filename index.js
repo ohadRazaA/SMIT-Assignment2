@@ -34,3 +34,56 @@
 
                                     
 
+
+//QUESTION NO. 3 
+
+// function addPara(data){
+//    let para = document.createElement("p");
+//     para.setAttribute("id" , "para");
+//     para.innerText = data;
+//     document.body.appendChild(para);
+// }
+
+// addPara("hello world");
+
+
+
+//QUESTION NO. 4
+
+// function addList(data){
+//        let unorderedList = document.createElement("ul");
+//        let list = document.createElement("li");
+//         document.body.appendChild(unorderedList);
+//         unorderedList.appendChild(list);
+//         list.innerText = data;
+//     }
+
+// addList("hello world");
+
+
+
+//QUESTION NO. 5
+
+// function colorHtml(htmlTag , color){
+//     let element = document.createElement(htmlTag);
+//     element.innerText = "Hello";
+//     document.body.appendChild(element);
+//     element.style.backgroundColor = color;
+// }
+
+// colorHtml("h1", "red");
+
+
+
+//QUESTION NO. 6
+
+// function saveObjToLocalStorage(key, obj) {
+//   let stringify =  JSON.stringify(obj)
+//   localStorage.setItem(key, stringify);
+// }
+// saveObjToLocalStorage("name" , "Ohad");
+// saveObjToLocalStorage("RollNo" , "123");
+
+// SIR NHI ARHA SAMJ SAVE TO HWA PAR AS A OBJECT NHI HWA AS COMPLETE STRING HWA. :(
+
+
